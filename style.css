@@ -142,6 +142,12 @@
      text-decoration: line-through;
  }
 
+ @media screen and (min-width: 30rem) {
+     main {
+         padding: 3rem;
+     }
+ }
+ 
  @media screen and (min-width: 48rem) {
 
      .card {
