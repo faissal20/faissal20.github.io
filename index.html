@@ -2,44 +2,105 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Preview Card</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Four card feature section</title>
+
 </head>
 
 <body>
-    <main>
+
+  <header>
+    <h1 class="text-perset-1">
+      Reliable, efficient delivery <br>
+      <span class="text-bold">Powered by Technology</span>
+    </h1>
+    <p class="text-perset-3">
+      Our Artificial Intelligence powered tools use millions of project data points
+      to ensure that your project is successful
+    </p>
+  </header>
+
+  <main>
+    <section class="cards">
+
+      <!-- card 1 -->
+      <div class="first-card">
+
         <div class="card">
-            <div class="card-image">
-                <picture class="image">
-                    <source srcset="images/image-product-desktop.jpg" media="(min-width: 768px)">
-                    <img src="images/image-product-mobile.jpg" alt="Product Image">
-                </picture>
-            </div>
-            <div class="card-content">
-                <h2 class="card-product-type text-preset-4">
-                    Perfume
-                </h2>
-                <h1 class="card-product-name text-preset-1">Gabrielle Essence Eau De Parfum</h1>
-                <p class="card-product-description  text-preset-3">
-                    A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the
-                    House of CHANEL.
-                </p>
-                <div class="card-price">
-                    <span class="card-product-price text-preset-1">$149.99</span>
-                    <span class="card-product-discount text-preset-5">$169.99</span>
-                </div>
-                <button type="button" class="card-button ">
-                    <img src="images/icon-cart.svg" alt="Cart Icon" width="18px">
-                    <span class="text-preset-2">
-                        Add to Card
-                    </span>
-                </button>
-            </div>
+          <div class="card-content">
+            <h1 class="text-perset-2">
+              Supervisor
+            </h1>
+            <p class="text-perset-4">
+              Monitors activity to identify project roadblocks
+            </p>
+          </div>
+          <div class="card-icon">
+            <img src="./images/icon-supervisor.svg" alt="Supervisor Icon">
+          </div>
         </div>
-    </main>
+      </div>
+
+      <!-- card 2 -->
+      <div class="middle-card">
+
+        <div class="card ">
+          <div class="card-content">
+            <h1 class="text-perset-2">
+              Team Builder
+            </h1>
+            <p class="text-perset-4">
+              Scans our talent network to create the optimal team for your project
+            </p>
+          </div>
+          <div class="card-icon">
+            <img src="./images/icon-team-builder.svg" alt="Team Builder Icon">
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="card">
+          <div class="card-content">
+            <h1 class="text-perset-2">
+              Karma
+            </h1>
+            <p class="text-perset-4">
+              Regularly evaluates our talent to ensure quality
+            </p>
+          </div>
+          <div class="card-icon">
+            <img src="./images/icon-karma.svg" alt="Karma Icon">
+          </div>
+        </div>
+      </div>
+
+      <div class="last-card">
+        <!-- card 4 -->
+        <div class="card">
+          <div class="card-content">
+            <h1 class="text-perset-2">
+              Calculate
+            </h1>
+            <p class="text-perset-4">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+          </div>
+          <div class="card-icon">
+            <img src="./images/icon-calculator.svg" alt="Calculator Icon">
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+    </section>
+  </main>
+
 </body>
 
 </html>
